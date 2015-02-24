@@ -6,4 +6,4 @@ blender --background crate.blend --python export-model.py -- Crate
 
 where Crate is the name of whatever object mesh in the crate.blend file you'd like to print, or more generically:
 
-blender --background <.blend file> --python export-model.py -- <object mesh name>
+blender --background <.blend file> --python export-model.py -- \<object mesh name\>
